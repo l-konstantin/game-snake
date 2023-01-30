@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Змейка</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="block-snake">
+        <div class="block-score">
+            <div id="score" class="score">Ваш счет: 0</div>
+            <div id="best" class="score" style="margin-left: 50px;">Best: 0</div>
+        </div>
+        
+        <div class="border"></div>
+
+        <div class="buttons">
+            <button id="start" onclick="Start()">Старт</button>
+            <button onclick="reload()">Сбросить</button>
+        </div>
+    </div>    
+<script src="game.js"></script>    
+</body>
+</html>
